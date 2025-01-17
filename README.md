@@ -1,10 +1,15 @@
 # SMS spam classifier
 
-Projet SMS Spam 
+## Analyse Exploratoire et Modeléisation
 
-## 
+## SpamSift
 
-### DEMO
+Démo déployée sur streamlit community et Hugginface
 
+### Streamlit frontend
 
-#### Dataset 
+### Fastapi Backend
+
+#### Dataset
+
+Le dataset pour ce projet est disponible [UCI](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection).
