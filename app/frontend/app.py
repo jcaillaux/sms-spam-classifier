@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pd
+import requests as rq
 
 # Application name
 APP_NAME = 'SpamSIFT'
@@ -10,10 +10,6 @@ st.set_page_config(page_title=APP_NAME)
 # State Initialization
 if "text_input" not in st.session_state:
     st.session_state.text_input = ""
-
-# Session history
-if "history" not in st.session_state:
-    st.session_state.history = pd.DataFrame(columns=['sms', 'resultat', 'model'])
 
 
 def inference():
