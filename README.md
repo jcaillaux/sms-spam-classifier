@@ -1,14 +1,6 @@
-# SMS spam classifier
+# Projet SMS spam classifier
 
-## Analyse Exploratoire et Modeléisation
-
-## SpamSift
-
-Démo déployée sur streamlit community et Hugginface
-
-### Streamlit frontend
-
-### Fastapi Backend
+Ce projet a pour but de développer une modèle permettant de détecter des spams SMS à partir du dataset SMS SPAM Collection de l'UCI. 
 
 #### Dataset
 
